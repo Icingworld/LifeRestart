@@ -1,3 +1,4 @@
 # Life Restart
 
-やり直すんだ。そして、次はうまくやる。[RESTART](view/index.html)
+我们再来一次，这一次，好好来！
+[RESTART](view/index.html)
