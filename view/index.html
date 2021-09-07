@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <meta name="description" content="やり直すんだ。そして、次はうまくやる。"/>
+    <meta name="keywords" content="人生重开模拟器 liferestart life restart remake 人生重来"/>
+    <link id="themeLink" rel="stylesheet" href="light.css">
+    <script src="../src/jquery.min.js"></script>
+    <script src="../src/axios.min.js"></script>
     <script>window.json = async fileName=>(await axios(`../data/${fileName}.json`)).data;</script>
     <title>人生重来模拟器（破解版）</title>
 </head>
@@ -35,13 +37,13 @@
     // Pssst, I've created a github package - https://github.com/brookesb91/dismissible
     const hideBanners = (e) => {
         document
-            .querySelectorAll(".banner.visible")
-            .forEach((b) => b.classList.remove("visible"));
+        .querySelectorAll(".banner.visible")
+        .forEach((b) => b.classList.remove("visible"));
     };
 </script>
 <script type="module">
     import App from '../src/app.js';
     const app = new App();
     app.initial();
-</script>
+    </script>
 </html>
