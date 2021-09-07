@@ -109,6 +109,10 @@ class Life {
     getRecord() {
         return this.#property.getRecord();
     }
+    
+    getLastRecord() {
+        return this.#property.getLastRecord();
+    }
 
     exclusive(talents, exclusive) {
         return this.#talent.exclusive(talents, exclusive);
